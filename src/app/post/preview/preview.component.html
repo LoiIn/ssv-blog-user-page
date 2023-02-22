@@ -1,0 +1,10 @@
+<div class="post-preview">
+    <a (click)="go()" class="pointer">
+        <h2 class="post-title" [textContent]="post!.title"></h2>
+    </a>
+    <p class="post-subtitle">{{ post!.summary }}</p>
+
+    <p class=" post-meta">Posted by
+        <a href="#" [textContent]="post!.author"></a>
+    </p>
+</div>
